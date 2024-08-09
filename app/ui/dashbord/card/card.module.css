@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: var(--bgSoft);
+  border-radius: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+.container:hover {
+  background-color: #2e374a;
+}
+.cardDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.title {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--textSoft);
+}
+.number {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--text);
+}
+.cardDesc {
+  font-size: 12px;
+  color: var(--textSoft);
+}
+.positive {
+  color: rgb(21, 231, 21);
+}
